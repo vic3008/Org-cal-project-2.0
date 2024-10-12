@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
+    display: grid;
+    width: 50%;
+    place-content: center;
+    min-height: 100vh;
+    background-color: gray;
+    /* border: 2px solid blue; */
+    border-radius: 30px;
+    margin: 0px 17rem;
+}
+
+#all{
+    place-content: center;
+    padding: 2rem;
+
+}
+
+.head{
+    color: black;
+    justify-content: center;
+    align-items: center;
+} 
+
+#calculator{
+    border: 2px solid rgb(40, 40, 41);
+    display: block;
+    border-radius: .7rem;
+}
+
+#parameters{
+    margin: 20px;
+}
+
+#input1{
+    border-radius: .3rem;
+    border: solid rgb(209, 233, 142);
+    padding: 10px;
+}
+
+#input2{
+    border-radius: .3rem;
+    border: solid rgb(209, 233, 142);
+    padding: 10px;
+}
+
+.done{
+    font-family: inherit;
+    padding: .2rem;
+    border-radius: .5rem;
+    transition: 400ms;
+    margin-top: 20px;
+    color: black;
+}
+#result{
+    margin: 20px;
+}
+
+.done:hover{
+    color: blueviolet;
+    padding: 0.1rem 0.5rem;
+}
